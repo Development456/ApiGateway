@@ -30,7 +30,7 @@ spring:
         uri: lb://customer
         predicates:
         - Path=/customer/**
-      - id: login
+      - id: userlogin
         uri: lb://user
         predicates:
         - Path=/user/**
